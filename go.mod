@@ -1,12 +1,12 @@
 module zadanko
 
-go 1.21.0
+go 1.21.1
 
 require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mattn/go-sqlite3 v1.14.17
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/crypto v0.13.0
 )
 
