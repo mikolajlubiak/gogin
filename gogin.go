@@ -35,7 +35,7 @@ type UserResponse struct {
 
 func main() {
 	// Initialize the database
-	initDB("zadanko.db")
+	initDB("gogin.db")
 
 	// Create a new Gin router
 	router := gin.Default()
@@ -55,7 +55,7 @@ func main() {
 		switch command {
 		case "add-user":
 			if len(os.Args) != 4 {
-				fmt.Println("Usage: ./zadanko <email> <password>")
+				fmt.Println("Usage: ./gogin <email> <password>")
 			} else {
 				email := os.Args[2]
 				password := os.Args[3]
